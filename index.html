@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shashank M - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-content">
+        <a href="#" class="logo">SM.</a>
+        <ul class="nav-links">
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#dev-certifications">Certificate</a></li>
+          <li><a href="#dev-contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <span class="greeting">Hello, I'm</span>
+          <h1 class="name">Shashank M</h1>
+          <h2 class="role">Full Stack Developer</h2>
+          <p class="bio">
+            A passionate developer with expertise in creating elegant solutions
+            through code. Specializing in full-stack development, I transform
+            ideas into reality with clean, efficient, and scalable solutions.
+            Based in Bengaluru, I'm always excited to take on new challenges and
+            contribute to innovative projects.
+          </p>
+          <div class="hero-buttons">
+            <a
+              href="resume.pdf"
+              class="button primary-button"
+              download="Shashank M - Resume"
+            >
+              <i class="fas fa-download"></i>
+              Download CV
+            </a>
+            <a href="#dev-contact" class="button secondary-button">
+              <i class="fas fa-arrow-right"></i>
+              Know More
+            </a>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="mailto:shashankmahadevaiah11@gmail.com"
+              class="social-link"
+              aria-label="Email"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <img src="shashankpic.jpg" alt="Shashank M" class="profile-img" />
+          </div>
+          <div class="image-bg"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+      <div class="education-header">
+        <div class="header-content">
+          <span class="header-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </span>
+          <h2>Education Journey</h2>
+          <p class="header-subtitle">My Academic Background</p>
+        </div>
+      </div>
+
+      <div class="education-timeline">
+        <div class="timeline-wrapper">
+          <div class="timeline-item left">
+            <div class="timeline-dot"></div>
+            <div class="education-card">
+              <div class="card-badge">2021 - 2023</div>
+              <div class="card-header">
+                <i class="fas fa-university institution-icon"></i>
+                <h3>Master of Computer Applications</h3>
+              </div>
+              <div class="institution">
+                Sri Siddhartha Institute of Technology
+              </div>
+              <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                Tumkur
+              </div>
+              <div class="grade">
+                <span class="grade-label">CGPA</span>
+                <div class="grade-bar">
+                  <div class="grade-fill" style="width: 79.3%">7.93</div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <span class="tag">Computer Science</span>
+                <span class="tag">MCA</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item right">
+            <div class="timeline-dot"></div>
+            <div class="education-card">
+              <div class="card-badge">2018 - 2021</div>
+              <div class="card-header">
+                <i class="fas fa-university institution-icon"></i>
+                <h3>Bachelor of Computer Applications</h3>
+              </div>
+              <div class="institution">Seshadripuram Degree College</div>
+              <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                Tumkur
+              </div>
+              <div class="grade">
+                <span class="grade-label">CGPA</span>
+                <div class="grade-bar">
+                  <div class="grade-fill" style="width: 69.7%">6.97</div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <span class="tag">Computer Science</span>
+                <span class="tag">BCA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="projects-header">
+        <div class="projects-header-content">
+          <span class="projects-header-icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <h2>Projects</h2>
+          <p class="projects-header-subtitle">My Recent Work</p>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <div class="projects-card">
+          <div class="projects-icon">
+            <i class="fas fa-lungs"></i>
+          </div>
+          <div class="projects-content">
+            <h3>Asthma Prediction Application</h3>
+            <p>
+              Django-based asthma prediction app leveraging machine learning to
+              forecast asthma attacks and optimize management strategies.
+            </p>
+            <div class="projects-tags">
+              <span class="projects-tag">Django</span>
+              <span class="projects-tag">Machine Learning</span>
+              <span class="projects-tag">Python</span>
+            </div>
+            <div class="projects-links">
+              <a href="#" class="projects-link">
+                <i class="fas fa-code-branch"></i> Source Code
+              </a>
+              <a href="#" class="projects-link">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <div class="projects-icon">
+            <i class="fas fa-plane"></i>
+          </div>
+          <div class="projects-content">
+            <h3>Flight Management System</h3>
+            <p>
+              Web application for flight reservations using Visual Basic, .Net,
+              and Microsoft SQL.
+            </p>
+            <div class="projects-tags">
+              <span class="projects-tag">VB.NET</span>
+              <span class="projects-tag">SQL Server</span>
+              <span class="projects-tag">.NET Framework</span>
+            </div>
+            <div class="projects-links">
+              <a href="#" class="projects-link">
+                <i class="fas fa-code-branch"></i> Source Code
+              </a>
+              <a href="#" class="projects-link">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <div class="projects-icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="projects-content">
+            <h3>Cyber Cafe Management System</h3>
+            <p>
+              Web application for cyber cafe management using HTML, CSS, and
+              JavaScript.
+            </p>
+            <div class="projects-tags">
+              <span class="projects-tag">HTML</span>
+              <span class="projects-tag">CSS</span>
+              <span class="projects-tag">JavaScript</span>
+            </div>
+            <div class="projects-links">
+              <a href="#" class="projects-link">
+                <i class="fas fa-code-branch"></i> Source Code
+              </a>
+              <a href="#" class="projects-link">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="dev-skills-wrapper">
+      <div class="dev-skills-header">
+        <div class="dev-header-content">
+          <span class="dev-header-icon">
+            <i class="fas fa-laptop-code"></i>
+          </span>
+          <h2>Technical Skills</h2>
+          <p class="dev-header-subtitle">My Technical Expertise</p>
+        </div>
+      </div>
+
+      <div class="dev-skills-container">
+        <!-- Frontend Development Section -->
+        <div class="dev-skills-category">
+          <h3 class="dev-category-title">Frontend Development</h3>
+          <div class="dev-skills-grid">
+            <div class="dev-skill-card" data-skill="90">
+              <div class="dev-skill-content">
+                <div class="dev-skill-icon">
+                  <i class="fab fa-html5"></i>
+                </div>
+                <div class="dev-skill-info">
+                  <h4>HTML/CSS</h4>
+                  <div class="dev-skill-bar-wrapper">
+                    <div class="dev-skill-bar">
+                      <div class="dev-skill-level" style="width: 90%">
+                        <span class="dev-skill-percentage">90%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dev-skill-details">
+                <ul>
+                  <li>Semantic HTML5</li>
+                  <li>CSS3 & Flexbox</li>
+                  <li>Responsive Design</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="dev-skill-card" data-skill="85">
+              <div class="dev-skill-content">
+                <div class="dev-skill-icon">
+                  <i class="fab fa-js"></i>
+                </div>
+                <div class="dev-skill-info">
+                  <h4>JavaScript</h4>
+                  <div class="dev-skill-bar-wrapper">
+                    <div class="dev-skill-bar">
+                      <div class="dev-skill-level" style="width: 85%">
+                        <span class="dev-skill-percentage">85%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dev-skill-details">
+                <ul>
+                  <li>ES6+ Features</li>
+                  <li>DOM Manipulation</li>
+                  <li>Async/Await</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="dev-skill-card" data-skill="80">
+              <div class="dev-skill-content">
+                <div class="dev-skill-icon">
+                  <i class="fab fa-react"></i>
+                </div>
+                <div class="dev-skill-info">
+                  <h4>React</h4>
+                  <div class="dev-skill-bar-wrapper">
+                    <div class="dev-skill-bar">
+                      <div class="dev-skill-level" style="width: 80%">
+                        <span class="dev-skill-percentage">80%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dev-skill-details">
+                <ul>
+                  <li>Hooks & Context</li>
+                  <li>State Management</li>
+                  <li>Component Design</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend Development Section -->
+        <div class="dev-skills-category">
+          <h3 class="dev-category-title">Backend Development</h3>
+          <div class="dev-skills-grid">
+            <div class="dev-skill-card" data-skill="85">
+              <div class="dev-skill-content">
+                <div class="dev-skill-icon">
+                  <i class="fab fa-python"></i>
+                </div>
+                <div class="dev-skill-info">
+                  <h4>Python</h4>
+                  <div class="dev-skill-bar-wrapper">
+                    <div class="dev-skill-bar">
+                      <div class="dev-skill-level" style="width: 85%">
+                        <span class="dev-skill-percentage">85%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dev-skill-details">
+                <ul>
+                  <li>Django Framework</li>
+                  <li>Data Processing</li>
+                  <li>API Development</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="dev-skill-card" data-skill="75">
+              <div class="dev-skill-content">
+                <div class="dev-skill-icon">
+                  <i class="fab fa-java"></i>
+                </div>
+                <div class="dev-skill-info">
+                  <h4>Java</h4>
+                  <div class="dev-skill-bar-wrapper">
+                    <div class="dev-skill-bar">
+                      <div class="dev-skill-level" style="width: 75%">
+                        <span class="dev-skill-percentage">75%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dev-skill-details">
+                <ul>
+                  <li>Core Java</li>
+                  <li>Spring Boot</li>
+                  <li>Hibernate</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="dev-skill-card" data-skill="80">
+              <div class="dev-skill-content">
+                <div class="dev-skill-icon">
+                  <i class="fas fa-database"></i>
+                </div>
+                <div class="dev-skill-info">
+                  <h4>Databases</h4>
+                  <div class="dev-skill-bar-wrapper">
+                    <div class="dev-skill-bar">
+                      <div class="dev-skill-level" style="width: 80%">
+                        <span class="dev-skill-percentage">80%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dev-skill-details">
+                <ul>
+                  <li>SQL & NoSQL</li>
+                  <li>Database Design</li>
+                  <li>Query Optimization</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dev-certifications" class="dev-cert-section">
+      <div class="dev-cert-header">
+        <div class="dev-cert-header-content">
+          <span class="dev-cert-icon">
+            <i class="fas fa-certificate"></i>
+          </span>
+          <h2>Certifications</h2>
+          <div class="dev-cert-header-line"></div>
+        </div>
+      </div>
+
+      <div class="dev-cert-grid">
+        <div class="dev-cert-card">
+          <div class="dev-cert-card-inner">
+            <div class="dev-cert-card-front">
+              <div class="dev-cert-badge">
+                <i class="fas fa-award"></i>
+              </div>
+              <h3>Django Full Stack</h3>
+              <p>MEVI Tech</p>
+            </div>
+            <div class="dev-cert-card-back">
+              <div class="dev-cert-details">
+                <h4>Key Learnings</h4>
+                <ul>
+                  <li>Full Stack Development</li>
+                  <li>Django Framework</li>
+                  <li>Database Management</li>
+                </ul>
+                <button class="dev-cert-btn">View Certificate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dev-cert-card">
+          <div class="dev-cert-card-inner">
+            <div class="dev-cert-card-front">
+              <div class="dev-cert-badge">
+                <i class="fas fa-robot"></i>
+              </div>
+              <h3>ChatGPT and AI Tools Mastery</h3>
+              <p>Professional Certification</p>
+            </div>
+            <div class="dev-cert-card-back">
+              <div class="dev-cert-details">
+                <h4>Key Learnings</h4>
+                <ul>
+                  <li>AI Tools Integration</li>
+                  <li>Prompt Engineering</li>
+                  <li>AI Applications</li>
+                </ul>
+                <button class="dev-cert-btn">View Certificate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dev-cert-card">
+          <div class="dev-cert-card-inner">
+            <div class="dev-cert-card-front">
+              <div class="dev-cert-badge">
+                <i class="fab fa-python"></i>
+              </div>
+              <h3>Python Programming</h3>
+              <p>Coursera</p>
+            </div>
+            <div class="dev-cert-card-back">
+              <div class="dev-cert-details">
+                <h4>Key Learnings</h4>
+                <ul>
+                  <li>Advanced Python</li>
+                  <li>Data Structures</li>
+                  <li>Algorithms</li>
+                </ul>
+                <button class="dev-cert-btn">View Certificate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dev-cert-card">
+          <div class="dev-cert-card-inner">
+            <div class="dev-cert-card-front">
+              <div class="dev-cert-badge">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Web Development</h3>
+              <p>Udemy</p>
+            </div>
+            <div class="dev-cert-card-back">
+              <div class="dev-cert-details">
+                <h4>Key Learnings</h4>
+                <ul>
+                  <li>Frontend Development</li>
+                  <li>Responsive Design</li>
+                  <li>Modern Web Tech</li>
+                </ul>
+                <button class="dev-cert-btn">View Certificate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dev-contact" class="dev-contact-section">
+      <div class="dev-contact-header">
+        <div class="dev-contact-header-content">
+          <span class="dev-contact-icon">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <h2>Contact Me</h2>
+          <p class="dev-contact-subtitle">Let's Build Something Together</p>
+        </div>
+      </div>
+
+      <div class="dev-contact-container">
+        <form id="dev-contact-form" class="dev-contact-form">
+          <div class="dev-form-group">
+            <div class="dev-input-wrapper">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder=" "
+              />
+              <label for="name">Your Name</label>
+              <div class="dev-input-underline"></div>
+              <div class="dev-input-icon">
+                <i class="fas fa-user"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="dev-form-group">
+            <div class="dev-input-wrapper">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder=" "
+              />
+              <label for="email">Your Email</label>
+              <div class="dev-input-underline"></div>
+              <div class="dev-input-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="dev-form-group">
+            <div class="dev-input-wrapper">
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                placeholder=" "
+              ></textarea>
+              <label for="message">Your Message</label>
+              <div class="dev-input-underline"></div>
+              <div class="dev-input-icon">
+                <i class="fas fa-comment-alt"></i>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="dev-submit-btn">
+            <span class="dev-btn-text">Send Message</span>
+            <span class="dev-btn-icon">
+              <i class="fas fa-paper-plane"></i>
+            </span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Get In Touch</h3>
+          <div class="location-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Bengaluru, Karnataka</p>
+          </div>
+          <div class="email-info">
+            <i class="fas fa-envelope"></i>
+            <a
+              href="mailto:shashankmahadevaiah11@gmail.com"
+              style="color: white; text-decoration: none"
+              >shashankmahadevaiah11@gmail.com</a
+            >
+          </div>
+        </div>
+
+        <div class="footer-section social">
+          <h3>Stay Connected</h3>
+          <div class="social-icons">
+            <a href="#" class="social-icon" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="social-icon" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" class="social-icon" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Shashank M | All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
